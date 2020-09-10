@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding: 40px 0;
+  width: 700px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding:25px 0;
+}
+
+.left-banner {
+  margin-left:  42%;
+  margin-right: 20%;
+}
+
+ .experience1 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.job1 {
+  order: 1;
+}
+
+.role1 {
+  order: 3;
+}
+
+.experience2 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.job2 {
+  order: 1;
+}
+
+.role2 {
+  order: 3;
+}
+
+.contact {
+  color: white;
+  background-color: rgb(61, 61, 61);
+}
+
+.blue-background {
+  background-color: #228bdc;
+  color:white;
+}
+
+
+
+
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.menu-link {
+  margin-left: 10px;
+}
+
+
+ul {
+  padding-left: 70%;
+}

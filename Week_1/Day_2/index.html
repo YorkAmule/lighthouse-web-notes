@@ -2,25 +2,45 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,700;1,100&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    Ayrton Mule
-    <nav>
-      <a href="#about">about</a>
-      <a href="#skills">skills</a>
-      <a href="#experience">experience</a>
-      <a href="#contact">contact</a>
+
+
+  <header class="blue-background">
+    <nav class="menu">
+      <p>Ayrton Mule</p>
+        <div>
+        <a class="menu-link" href="#about">about</a>
+        <a class="menu-link" href="#skills">skills</a>
+        <a class="menu-link" href="#experience">experience</a>
+        <a class="menu-link" href="#contact">contact</a>
+      </div>
     </nav>
-    <h1>Ayrton Mule</h1>
-    <h2>Software Developer</h2>
-    <img alt="Ayrton Mule" src="https://i.imgur.com/fKCcYAI.png">
   </header>
+
+
+  <section class="banner blue-background">
+    <div class="left-banner">
+      <h1 class="name">Ayrton Mule</h1>
+      <h2 class="job">Software Developer</h2>
+    </div>
+    <div class="right-banner">
+      <img alt="Ayrton Mule" src="./AyrtonMule.png">
+    </div>
+  </section>
+
+
+
+
   <a href="./AyrtonMule.png" download>Download Image</a>
-  <section id="about">
-    <h1>About</h1>
-    <div>
+  <section class="about">
+    <div class="container">
+      <h1>About</h1>
+
       <h2>I'm a subtitle</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -31,7 +51,7 @@
       </p>
     </div>
   </section>
-  <section id="skills">
+  <section class="skills" class="highlight">
     <h1>Skills</h1>
     <div>
       <h3>C</h3>
@@ -42,34 +62,51 @@
       <meter min="0" max="10" value="6"></meter> 60%
     </div>
   </section>
-  <section id="experience">
-    <h1>Experience</h1>
-    <div>
-      <h3>2015-2016</h3>
-      <h4>DWS Lab Engineering Support</h4>
-      <h2>BMO Financial Group</h2>
-      <p>Created program scripts to improve productivity for server installs using PowerShell
-      </p>
-    </div>
-    <div>
-      <h3>2017</h3>
-      <h4>System Support Analyst</h4>
-      <h2>BMO Financial Group</h2>
-      <p>Managed E-mail inbox and created support tickets in JIRA for those in need of assistance.</p>
-    </div>
+
+  
+  <section class="experience"> 
+      <section class="experience1">
+        <div class="job1">
+          <h3>2015-2016</h3>
+          <h2>BMO Financial Group</h2>
+        </div>
+      
+        <div class="role1">
+          <h4>DWS Lab Engineering Support</h4>
+      
+          <p>Created program scripts to improve productivity for server installs using PowerShell
+          </p>
+        </div>
+      </section>
+
+
+      <section class="experience2">
+        <div class="job2">
+          <h3>2017</h3>
+          <h2>BMO Financial Group</h2>
+        </div>
+        <div class="role2">
+          <h4>System Support Analyst</h4>
+          <p>Managed E-mail inbox and created support tickets in JIRA for those in need of assistance.</p>
+        </div>
+      </section>
   </section>
-  <footer id="contact">
-    <h1>Ayrton Mule</h1>
-    <h3>Software Developer</h3>
-    <nav>
-      <ul>
-        <li><a href="mailto:Blahblah@blah.com" target="_blank">Email: Blahblah@blah.com</a></li>
-        <li><a href="tel:Telephone" target="_blank">Telephone: 123 123 1234</a></li>
-        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
-        <li><a href="https://www.finalfantasyxiv.com/" target="_blank">Final Fantasy XIV</a></li>
-        <li><a href="https://store.steampowered.com/" target="_blank">Steam</a></li>
-      </ul>
-    </nav>
+
+  <footer class="contact">
+    <div class="container">
+      <h1>Ayrton Mule</h1>
+      <h3>Software Developer</h3>
+      <nav>
+        <ul>
+          <li><a href="mailto:Blahblah@blah.com" target="_blank">Email: Blahblah@blah.com</a></li>
+          <li><a href="tel:Telephone" target="_blank">Telephone: 123 123 1234</a></li>
+          <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+          <li><a href="https://www.finalfantasyxiv.com/" target="_blank">Final Fantasy XIV</a></li>
+          <li><a href="https://store.steampowered.com/" target="_blank">Steam</a></li>
+        </ul>
+      </nav>
+    </div>
   </footer>
 </body>
+
 </html>
