@@ -3,8 +3,56 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+body::selection {
+  color:yellow;
+}
+
+.about {
+  font-family: sans-serif;
+}
+
+.date {
+  color: #228bdc;
+}
+
+meter {
+  width: 300px;
+  height: 25px;
+}
+
+meter::-webkit-meter-bar {
+  border-radius: 10px;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: greenyellow;
+}
+
+nav a{
+  transition: color 2s linear 200ms;
+}
+
+nav a:hover {
+  color:green;
+  
+  
+}
+
+nav a:visited {
+  color: grey;
+}
+
+p::first-letter {
+  font-weight: bold;
+}
+
 .container {
   padding: 40px 0;
+  width: 700px;
+}
+
+.container2 {
+  padding: 50px 0;
   width: 700px;
 }
 
@@ -16,8 +64,15 @@ body {
 }
 
 .left-banner {
-  margin-left:  42%;
+  margin-left:  50%;
   margin-right: 20%;
+}
+
+.bottom-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding:25px 0;
 }
 
  .experience1 {
@@ -30,7 +85,9 @@ body {
 }
 
 .role1 {
+
   order: 3;
+  margin-left: 20px;
 }
 
 .experience2 {
@@ -44,7 +101,9 @@ body {
 
 .role2 {
   order: 3;
+  margin-left: 20px;
 }
+
 
 .contact {
   color: white;
@@ -56,11 +115,18 @@ body {
   color:white;
 }
 
+.skills {
+  display: flex;
+  align-items: flex-start;
+}
 
+.languages {
+  padding-top: 7px;
+}
 
-
-
-
+.meters {
+  padding: 10px;
+}
 .menu {
   display: flex;
   justify-content: space-between;
