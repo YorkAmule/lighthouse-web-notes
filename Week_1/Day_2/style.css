@@ -29,7 +29,7 @@ meter::-webkit-meter-optimum-value {
 }
 
 nav a{
-  transition: color 2s linear 200ms;
+  transition: color 500ms linear 100ms;
 }
 
 nav a:hover {
